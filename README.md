@@ -107,7 +107,7 @@ test("displays plants in cart", () => {
 ```
 
 ## Submission format
-* [ ] Submit via Codegrade by committing and pushing any new changes to **your main branch.**
+* [x ] Submit via Codegrade by committing and pushing any new changes to **your main branch.**
 * [ ] Check Codegrade before the deadline to compare its results against your local tests.
 * [ ] Check Codegrade on the days following the Sprint Challenge for reviewer feedback. For more information on how to access and read your feedback, check [here](https://www.notion.so/lambdaschool/How-to-View-Feedback-in-CodeGrade-c5147cee220c4044a25de28bcb6bb54a)
 * [ ] New commits will be evaluated by Codegrade if pushed before the sprint challenge deadline.
@@ -118,8 +118,16 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. What are the main differences between a class-based and a functional component?
 
+### Answer: Class-based components control the state changes happening to the component via render method to return the React component. Functional component easily return React components using hooks.
+
 2. When does a componentWillMount function be called? What about a componentDidUpdate?
+
+### Answer: componentWillMount is called when the initial render is complete to fetch any data and then to display the data. componentDidUpdate is called after the componentDidMount when the component state changes or get updated. 
 
 3. Define stateful logic.
 
+### Answer: stateful logic can be defined as logic dependent on the data or simply logic put together for manipulation of data. Using stateful logic functions make the code reusable to re-render data when there is data manipulation or update. 
+
 4. What are the three step of creating a successful test? What is done in each phase? 
+
+### Answer: 1. Arrange - Verify by setting up the react components we want to test that they get rendered.  2. Act  - Create or mimic component behavior (input, submission) 3. Assert - Validate the component response. 
