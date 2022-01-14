@@ -16,6 +16,7 @@ const initialValue = {
 
 const CheckoutForm = (props) => {
   
+  //5. useState is managed by useForm hook.
   const [values,showSuccessMessage, handleChanges, handleSubmit] = useForm(initialValue);
 
   return (
